@@ -42,4 +42,7 @@
       font-display: swap;
       src: url("fonts/InstrumentSerif-Italic.ttf") format("truetype");
   }
+  :root {
+    --radius: 0.5rem;
+  }
 }
