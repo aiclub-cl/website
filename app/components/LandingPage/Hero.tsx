@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export default function Hero() {
     return (
-        <div className="flex flex-col items-center justify-center w-full h-full space-y-12 tablet:flex-row tablet:space-x-36 tablet:space-y-0">
+        <div className="flex flex-col items-center justify-center w-full h-full space-y-12 tablet:flex-row tablet:space-x-12 tablet:space-y-0">
             <div className="w-full space-y-12">
                 <div className="text-center space-y-8 tablet:text-left">
                     <p className="text-2xl desktop:text-4xl">

@@ -11,7 +11,7 @@ export default {
   theme: {
   	extend: {
   		screens: {
-  			tablet: '940px',
+  			tablet: '768px',
   			desktop: '1154px'
   		},
   		colors: {
