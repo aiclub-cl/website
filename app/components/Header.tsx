@@ -7,12 +7,10 @@ import { Button } from "./ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle
 } from "./ui/navigation-menu";
 
@@ -74,7 +72,6 @@ export default function Header() {
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/"
                   >
                     <div className="mb-2 mt-4 text-lg font-medium">
                       shadcn/ui
