@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="w-full space-y-12">
                 <div className="text-center space-y-8 tablet:text-left">
                     <p className="text-2xl desktop:text-4xl">
-                        <a className="font-instrument-serif">Tu comunidad</a><br />
+                        <a className="font-instrument-serif italic">Tu comunidad</a><br />
                         de <a className="font-medium">inteligencia artificial</a> en Chile
                     </p>
                     <p className="text-md text-space desktop:text-lg">
